@@ -1,0 +1,15 @@
+section#sellers {
+  padding: 3rem 0;
+  text-align: center;
+  .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .card {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

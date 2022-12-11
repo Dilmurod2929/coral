@@ -1,0 +1,32 @@
+section#showcase {
+  padding: 3rem 0;
+  text-transform: capitalize;
+  .flex {
+    align-items: center;
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  p {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 1.5rem 0;
+  }
+  .btn {
+    all: unset;
+    display: inline-block;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

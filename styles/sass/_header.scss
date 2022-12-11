@@ -1,0 +1,23 @@
+header#main-header {
+  padding: 1.5rem 0;
+  background-color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0 0 5px gray;
+  border-bottom: 1px solid grey;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: 16px;
+  .flex {
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+  .fa-solid {
+    margin-left: 5px;
+  }
+}

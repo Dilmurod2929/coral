@@ -1,0 +1,9 @@
+footer#footer {
+  padding: 1rem 0;
+  background-color: #000;
+  color: white;
+}
+footer#footer .flex {
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=footer.css.map */

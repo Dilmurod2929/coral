@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.portion {
+  flex: 1;
+}
+
+header#main-header {
+  padding: 1.5rem 0;
+  background-color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0 0 5px gray;
+  border-bottom: 1px solid grey;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: 16px;
+}
+header#main-header .flex {
+  align-items: center;
+  justify-content: space-between;
+}
+header#main-header ul {
+  display: flex;
+  gap: 2rem;
+}
+header#main-header .fa-solid {
+  margin-left: 5px;
+}
+
+section#showcase {
+  padding: 3rem 0;
+  text-transform: capitalize;
+}
+section#showcase .flex {
+  align-items: center;
+  justify-content: space-between;
+}
+section#showcase h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+section#showcase p {
+  width: 400px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 1.5rem 0;
+}
+section#showcase .btn {
+  all: unset;
+  display: inline-block;
+  padding: 8px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+}
+section#showcase .btn:hover {
+  opacity: 0.5;
+}
+
+section#brands {
+  padding: 3rem 0;
+}
+section#brands .flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#premium {
+  background-color: rgba(255, 255, 255, 0.9647058824);
+  text-transform: capitalize;
+  text-align: center;
+  padding: 3rem 0;
+}
+section#premium h2 {
+  margin-bottom: 1rem;
+}
+section#premium .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row: repeat(3, 1);
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  grid-template-areas: "card1 card1 card2 card3" "card1 card1 card4 card5";
+}
+section#premium .card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1/span 4;
+  grid-area: card1;
+}
+section#premium .card2 {
+  width: 275px;
+  height: 275px;
+  grid-area: card2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#premium .card3 {
+  width: 275px;
+  height: 275px;
+  grid-area: card3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#premium .card4 {
+  width: 275px;
+  height: 275px;
+  grid-area: card4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#premium .card5 {
+  width: 275px;
+  height: 275px;
+  grid-area: card5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#products {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7176470588);
+}
+section#products .new__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+section#products .card {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#sellers {
+  padding: 3rem 0;
+  text-align: center;
+}
+section#sellers .content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+section#sellers .card {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#end {
+  padding: 3rem 0;
+}
+section#end .flex {
+  gap: 1rem;
+}
+section#end p {
+  margin: 1rem 0;
+}
+section#end h3 {
+  margin: 1rem 0;
+}
+section#end li {
+  margin: 10px 0;
+}
+section#end .fa-solid {
+  gap: 1rem;
+}
+
+footer#footer {
+  padding: 1rem 0;
+  background-color: #000;
+  color: white;
+}
+footer#footer .flex {
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */

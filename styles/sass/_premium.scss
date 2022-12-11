@@ -1,0 +1,59 @@
+section#premium {
+  background-color: #fffffff6;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 3rem 0;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: repeat(3, 1);
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    grid-template-areas:
+      "card1 card1 card2 card3"
+      "card1 card1 card4 card5";
+  }
+  .card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1 / span 4;
+    grid-area: card1;
+  }
+  .card2 {
+    width: 275px;
+    height: 275px;
+    grid-area: card2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card3 {
+    width: 275px;
+    height: 275px;
+    grid-area: card3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card4 {
+    width: 275px;
+    height: 275px;
+    grid-area: card4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card5 {
+    width: 275px;
+    height: 275px;
+    grid-area: card5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
